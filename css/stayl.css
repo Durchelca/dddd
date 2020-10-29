@@ -1,0 +1,113 @@
+body {
+    background-color: #555556;
+    font-family: "MyriadProRegular";
+    background-image: url(../image/baner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.wrapper{
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.hader_logo {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.hader_logo>li {
+    padding-right: 400px;
+}
+.hader_logo>li>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0%;
+    font-weight: 400;
+    margin-bottom: 0%;
+}
+.nav>li {
+    padding-left: 35px;
+}
+.nav>li>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.btnlog {
+    cursor: pointer;
+}
+.nav>li>a:hover  {
+    color: #998675;
+}
+.title {
+    font-size: 36px;
+    padding-top: 250px;
+    text-align: center;
+}
+.title_1 {
+    font-size: 52px;
+    padding-top: -10px; 
+    margin-bottom: 32px;
+    text-align: center;
+}
+.title_2 {
+    font-size: 16px;
+    line-height: 16px;
+    max-width: 570px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-left: 300px;
+
+}
+.h_LOG {
+    font-size: 34px;
+}
+.btn {
+    
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #998675;
+  border-radius: 1px;
+  background: #998675;
+  position: relative;
+  border-radius: 6px;
+  background: linear-gradient #998675;
+  transition: 0.2s;
+left: 50%;
+transform: translate(-50%, 0);
+
+} 
+
+@media (max-width: 1170px) {
+   .hader {
+       width: 100%;
+   } 
+   .hader {
+       width: 100%;
+       margin: 0;
+       margin-bottom: 30px;
+       padding-left: 15px;
+       padding-right:  15px;
+       text-align: center;
+   }
+}
